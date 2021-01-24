@@ -14,10 +14,20 @@ button.onclick = function () {
    li.append(removeButton);
    span.textContent=str;
    removeButton.innerText="delete";
+   removeButton.onclick = function () {
+   removeButton.parentNode.remove();
+   }
+    
+}
 
 
 
     
-} ;
+// } ;
+// removeButton.onclick = function () {
+//     // removeButton.parentNode.remove();
+//     li.remove();
+// }
+
 
 
