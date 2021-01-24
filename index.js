@@ -2,7 +2,7 @@ const ul = document.querySelector("ul");
 const input = document.querySelector("input");
 const button = document.querySelector("button");
 
-// let str = "";
+
 button.onclick = function () {
    let str = input.value;
    input.value="";
