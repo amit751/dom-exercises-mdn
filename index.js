@@ -22,12 +22,7 @@ button.onclick = function () {
 
 
 
-    
-// } ;
-// removeButton.onclick = function () {
-//     // removeButton.parentNode.remove();
-//     li.remove();
-// }
+
 
 
 
